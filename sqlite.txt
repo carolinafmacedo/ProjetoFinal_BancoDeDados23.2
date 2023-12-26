@@ -1,0 +1,12 @@
+#Join Assinatura e Cliente
+
+SELECT tipo_Assinatura, nome_Cliente, sobrenome_Cliente
+FROM assinatura
+LEFT JOIN dados_Cliente ON assinatura.id_Cliente = dados_Cliente.id_Cliente
+
+
+#Join Endereço e Cliente
+
+SELECT id_Cliente, nome_Cliente, sobrenome_Cliente, CEP_Endereco, Bairro_Endereco, Cidade_Endereco
+FROM dados_Cliente
+LEFT JOIN endereco ON dados_Cliente.id_Endereco = endereco.id_Endereco
