@@ -2,4 +2,4 @@
 
 ## Diagrama de Relacionamento
 
-![diagrama](img/diagrama.jpg)
+![diagrama](img/diagram.jpg)
