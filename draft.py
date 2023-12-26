@@ -135,3 +135,13 @@ insert_many_rows(
     (19, 19, 19, 'Básica'),
     (20, 20, 20, 'Premium')]
  )
+
+from functions.join_table_assinatura import join_table
+
+assinaturas = join_table()
+print(assinaturas)
+
+from functions.join_table_endereco import join_table
+
+enderecos = join_table()
+print(enderecos)
